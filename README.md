@@ -6,6 +6,8 @@ A lightweight macOS menu bar application for quick-glance CCTV monitoring of Kot
 
 Pre-built `.dmg` files are available on the [Releases](https://github.com/januarfonti/cctv-malang-menubar/releases) page. Download the latest `.dmg`, open it, and drag the app to your Applications folder.
 
+> **Note:** The DMG is built for Apple Silicon (M1/M2/M3/M4). Intel Macs can run it natively via Rosetta 2.
+
 ## Features
 
 - **Menu bar tray icon** — camera icon, adapts to light/dark mode (template image)
@@ -124,6 +126,10 @@ src-tauri/target/release/bundle/
 ├── macos/CCTV Menubar.app
 └── dmg/CCTV Menubar_1.0.0_aarch64.dmg
 ```
+
+## Related
+
+This is the standalone menubar companion app. The main web application (Next.js) lives at [januarfonti/cctv-malang](https://github.com/januarfonti/cctv-malang).
 
 ## License
 
