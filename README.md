@@ -8,6 +8,12 @@ Pre-built `.dmg` files are available on the [Releases](https://github.com/januar
 
 > **Note:** The DMG is built for Apple Silicon (M1/M2/M3/M4). Intel Macs can run it natively via Rosetta 2.
 
+**macOS Gatekeeper:** Since the app is not code-signed, macOS will show "app is damaged" on first open. Run this once to fix it:
+
+```bash
+xattr -cr /Applications/CCTV\ Menubar.app
+```
+
 ## Features
 
 - **Menu bar tray icon** — camera icon, adapts to light/dark mode (template image)
