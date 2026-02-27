@@ -1,6 +1,6 @@
 [package]
 name = "cctv-menubar"
-version = "1.0.0"
+version = "1.0.1"
 description = "CCTV Kota Malang Menu Bar App"
 authors = ["Januar Fonti"]
 edition = "2021"
@@ -17,7 +17,7 @@ tauri = { version = "2", features = ["tray-icon", "image-png", "macos-private-ap
 tauri-plugin-positioner = { version = "2", features = ["tray-icon"] }
 tokio = { version = "1", features = ["full"] }
 axum = "0.7"
-reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "cookies"] }
 tower-http = { version = "0.5", features = ["cors"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
